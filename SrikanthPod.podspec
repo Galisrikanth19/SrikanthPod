@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SrikanthPod"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A CocoaPods library written in Swift by srikanth gali"
 
   spec.description  = <<-DESC
@@ -16,7 +16,7 @@ This CocoaPods library helps you perform calculation.
   spec.swift_version = "4.2"
 
   spec.source        = { :git => "https://github.com/myrepo/Podspecs.git", :branch => "main",
-                   :tag => s.version.to_s }
+                   :tag => "#{spec.version}" }
 
   spec.source_files  = "SrikanthPod/**/*.{h,m,swift}"
 
